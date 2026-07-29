@@ -1,0 +1,24 @@
+body{background-color: grey;
+
+}
+.btn-custom {
+    background-color: #4A90E2; /* Couleur principale */
+    color: white;              /* Couleur du texte */
+    padding: 12px 24px;        /* Espace autour du texte */
+    border: none;              /* Supprime la bordure par défaut */
+    border-radius: 20px;        /* Coins arrondis */
+    font-size: 16px;           /* Taille du texte */
+    font-weight: 600;          /* Texte en gras */
+    cursor: pointer;           /* Curseur en forme de main */
+    transition: background-color 0.3s ease; /* Animation fluide */
+}
+
+/* Effet au survol */
+.btn-custom:hover {
+    background-color: #357ABD; /* Couleur un peu plus foncée */
+}
+
+/* Effet au clic */
+.btn-custom:active {
+    transform: translateY(2px); /* Léger effet d'enfoncement */
+}

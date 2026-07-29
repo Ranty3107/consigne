@@ -1,0 +1,61 @@
+table{
+    width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background: white;
+border: 2px solid black;
+ 
+}
+th, td{
+    padding: 12px 15px;
+            text-align: left;
+            border-bottom: 2px solid #eee;
+
+}
+td{border: 1px dotted black;}
+tr :hover{color: blue;
+
+}
+ th {background-color: #34495e;
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            text-align: center;
+        }
+
+body{margin: 0;
+    padding: 50px;
+    background-color: #525659; /* Fond liseuse pour faire ressortir la feuille A4 */
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.btn-custom {
+    background-color: #4A90E2; /* Couleur principale */
+    color: white;              /* Couleur du texte */
+    padding: 12px 24px;        /* Espace autour du texte */
+    border: none;              /* Supprime la bordure par défaut */
+    border-radius: 20px;        /* Coins arrondis */
+    font-size: 16px;           /* Taille du texte */
+    font-weight: 600;          /* Texte en gras */
+    cursor: pointer;           /* Curseur en forme de main */
+    transition: transform 0.5s ease;
+}
+.btn-custom:hover{transform: rotateX(20deg);}
+footer{background-color: #4A90E2;
+    color: white;
+    padding: 20px 0; /* padding vertical, 0 à gauche/droite pour bien centrer */
+    width: 100%;     /* Force l'élément à prendre toute la largeur */
+    margin-top: 20px;       /* Supprime la marge de 30px qui décollait le footer */
+    box-sizing: border-box; /* Important pour que le padding n'ajoute pas de largeur dépassant l'écran */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    transform: 1 ease;
+
+}
+footer:hover{transform: rotate(10deg);
+
+}

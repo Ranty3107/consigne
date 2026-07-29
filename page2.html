@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSIGNES ET OUTILS</title>
+    <link rel="stylesheet" href="page2.css">
+<link rel="icon" href="image/DSCF6247.png" type="image/png">    
+</head>
+<body>
+ 
+<div class="container">
+    <div class="header-fixe">
+        <section class="colonne">
+            <div>
+    <h3 class="bg-light"><a href="index.HTML" class="btn btn-warning btn-sm fw-bold shadow-sm">Accueil</a></h3>
+    </div>
+    <div>
+    <h3 class="bg-light"><a href="page3.html" class="btn btn-warning btn-sm fw-bold shadow-sm">Commentaire</a></h3>    
+    </div>
+    <div>
+    <h3 class="bg-light"><a href="page4.html" class="btn btn-warning btn-sm fw-bold shadow-sm">Taille et Optin</a></h3>    
+    </div>
+    </section>
+        <h1>Recherche de Produits</h1>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Recherche par RefCode, Code ou Description (Ex: REF*, *123, *shirt*)...">
+            <button id="searchBtn">Rechercher</button>
+        </div>
+
+        <div id="infoZone" class="info-text">Tous les produits sont affichés par défaut.</div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>RefCode</th>
+                <th>Code Produit</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="resultTableBody"></tbody>
+    </table>
+</div>
+<script src="page2.js"></script>
+
+</body>
+</html>
