@@ -302,3 +302,15 @@ footer.style.backgroundColor = '#2f7558';
         </p>
     `;
     document.body.appendChild(footer);
+    function demarrerApp() {
+    const welcomeScreen = document.getElementById('welcomeScreen');
+    
+    // Ajoute une transition douce
+    welcomeScreen.style.transition = "opacity 0.5s ease-out";
+    welcomeScreen.style.opacity = "0";
+    
+    // Cache totalement la div après la transition (500 ms) pour rendre la page cliquable
+    setTimeout(() => {
+        welcomeScreen.style.display = "none";
+    }, 500);
+}
