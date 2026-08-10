@@ -1,16 +1,13 @@
-table{
-    width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-            background: white;
-border: 2px solid black;
- 
+body {
+font-weight: bold;
 }
-th, td{
-    padding: 12px 15px;
-            text-align: left;
-            border-bottom: 2px solid #eee;
+table {
+    background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent à 20% */
+}
 
+/* N'oubliez pas d'appliquer aussi une transparence aux cellules si nécessaire */
+th, td {
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 td{border: 1px dotted black;}
 tr :hover{color: blue;
